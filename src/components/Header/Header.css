@@ -1,0 +1,24 @@
+.header{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    height: 4rem;
+    
+}
+.menu .menu-items{
+    padding: 5px 10px;
+    margin-right: 4px;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: white !important;
+    background-color: cadetblue;
+}

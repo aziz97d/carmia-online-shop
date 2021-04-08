@@ -1,0 +1,36 @@
+.manage-area{
+    padding: 2rem;
+}
+.manage-area .product-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    padding: .5rem;
+}
+.manage-area .product-list button{
+    all: unset;
+    cursor: pointer;
+    padding: .5rem;
+}
+.manage-area .product-list button:hover{
+    color: cadetblue;
+}
+.manage-area .product-list.header{
+    background-color: cadetblue;
+    color: white;
+    border-radius: .5rem;
+}
+.manage-area .product-list > :nth-child(1){
+    flex: 1 1 50%;
+    margin-left: 2rem;
+}
+.manage-area .product-list > :nth-child(2){
+    flex: 1 1 20%;
+}
+.manage-area .product-list > :nth-child(3){
+    flex: 1 1 20%;
+}
+.manage-area .product-list > :nth-child(4){
+    flex: 1 1 10%;
+}

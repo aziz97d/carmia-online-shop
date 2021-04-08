@@ -1,0 +1,54 @@
+.login-area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid cadetblue;
+    width: 35rem;
+    height: 48rem;
+    border-radius: 5px;
+}
+.form-area{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.input-field{
+    width: 90%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: cadetblue 1px solid;
+    outline: none;
+}
+.submit-button{
+    width: 90%;
+    padding: 1rem;
+    outline: none;
+    border:none;
+    color: white ;
+    background-color: cadetblue !important;
+    height: 5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.social-login-button{
+    width: 90%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 2rem;
+    outline: none;
+    border:none;
+    color: white ;
+    background-color: cadetblue;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+}
+

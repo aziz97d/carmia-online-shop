@@ -1,0 +1,41 @@
+.submit-form{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-group{
+   font-size: 1.8rem;
+   width: 45%;
+   margin: 1rem 2rem;
+   display: flex;
+   flex-direction: column;
+}
+.item-group label{
+    font-weight: 600;
+}
+.item-group input[type="text"]{
+    padding: 1rem;
+    color: cadetblue;
+    border: none;
+    font-size: 1.5rem;
+    border-bottom: .1rem solid cadetblue;
+
+}
+.item-group input[type="text"]:focus{
+    border-bottom: .2rem solid cadetblue;
+
+}
+input[type="submit"]{
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    background-color: cadetblue;
+    border-radius: 1.5rem;
+}
+.item-group input:focus{
+    outline: none;
+}
